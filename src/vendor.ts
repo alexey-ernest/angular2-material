@@ -12,6 +12,9 @@ import 'rxjs';
 // Angular 2 Material
 import '@angular2-material/core';
 import '@angular2-material/button';
+import '@angular2-material/card';
+import '@angular2-material/input';
+import '@angular2-material/icon';
 
 // Other vendors for example jQuery, Lodash or Bootstrap
 // You can import js, ts, css, sass, ...

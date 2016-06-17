@@ -1,7 +1,31 @@
 <main>
-  <h1>Hello from Angular 2 App with Webpack</h1>
+  <h1>Hello from Angular 2 Material app</h1>
   <img src="../../public/images/angular.png">
   <p>
-  	<button md-raised-button color="accent">RAISED</button>
+    <button md-raised-button color="accent">BUILD YOUR NEW APP WITH MATERIAL DESIGN NOW</button>
   </p>
+  <md-card class="box">
+    <md-input placeholder="First name"></md-input>
+
+    <md-input #nickname placeholder="Nickname" maxlength="50">
+      <md-hint align="end">
+        {{nickname.characterCount}} / 50
+      </md-hint>
+    </md-input>
+
+    <md-input>
+      <md-placeholder>
+        <i class="material-icons app-input-icon">android</i> Favorite phone
+      </md-placeholder>
+    </md-input>
+
+    <md-input placeholder="Motorcycle model">
+      <span md-prefix>
+        <i class="material-icons app-input-icon">motorcycle</i>
+        &nbsp;
+      </span>
+    </md-input>
+
+    <button md-raised-button color="primary">SUBMIT</button>
+  </md-card>
 </main>
